@@ -1,0 +1,783 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+}
+
+header {
+  padding: 21px 121px;
+}
+
+.container {
+  padding: 0 121px;
+}
+
+.details {
+  display: flex;
+  align-items: center;
+}
+
+.detail {
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.detail span {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.first-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-section h1 {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 101.38%;
+  margin-bottom: 30px;
+}
+
+.first-section p {
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.first-section img {
+  margin-right: 125px;
+}
+
+.andrey-words {
+  width: 483px;
+  height: 200px;
+  margin: 68px auto 173px auto;
+  background-color: #1e4681;
+  border-radius: 5px;
+  color: #fff;
+  padding: 20px 27px;
+}
+
+.andrey-words p {
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+
+.andrey-words span {
+  font-size: 20px;
+  text-align: right;
+  display: block;
+}
+
+.second-section h1 {
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 50px;
+}
+
+.second-section .course-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-section .course-info div {
+  max-width: 45%;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.second-section .course-info div p:first-of-type {
+  margin-bottom: 50px;
+}
+
+.course-details {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.course-details .detail-blocks {
+  display: flex;
+  align-items: center;
+  margin-left: 132px;
+  justify-content: space-between;
+  min-width: 60%;
+}
+
+.course-details .detail-blocks span {
+  font-weight: 400;
+  font-size: 18px;
+  display: block;
+}
+
+.course-details .detail-blocks span.bold {
+  font-weight: 700;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.format-details p {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.third-section {
+  margin-bottom: 248px;
+}
+
+.third-section h1 {
+  text-align: left;
+  font-weight: 700;
+  font-size: 55px;
+  margin-top: 170px;
+  margin-bottom: 100px;
+}
+
+.format-details {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 220px;
+}
+
+.third-section .format-details div p.bold {
+  font-weight: 700;
+  font-size: 25px;
+  color: #1e4681;
+}
+
+.third-section ul {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.fourth-section {
+  padding: 0 84px;
+}
+
+.fourth-section h1 {
+  padding-left: 37px;
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 95px;
+}
+
+.cards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card.with-margin {
+  margin: 0 37px;
+}
+
+.card {
+  width: calc((100% - 74px) * 0.33);
+  border-radius: 30px;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.card img {
+  width: 100%;
+}
+
+.card h4 {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 32px;
+  margin-left: 20px;
+}
+
+.card h4.margin-0 {
+  margin-bottom: 0;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 23px;
+  margin-left: 20px;
+}
+
+.fifth-section {
+  padding: 90px 121px;
+  background-color: #efefef;
+}
+
+.fifth-section h1,
+.sixth-section h1 {
+  margin-bottom: 45px;
+  font-weight: 700;
+  font-size: 55px;
+}
+
+.fifth-section .inner-box {
+  background: #ffffff;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
+  width: 791px;
+  padding: 40px 45px 30px 45px;
+}
+
+.fifth-section p {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.fifth-section .inner-box > div {
+  display: flex;
+  align-items: center;
+}
+
+.fifth-section .inner-box > div div {
+  margin-left: 25px;
+}
+
+.fifth-section .inner-box h2 {
+  margin-bottom: 20px;
+}
+
+.sixth-section {
+  background-color: #9dc9c8;
+  padding: 180px 122px;
+}
+
+.sixth-section .small {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.sixth-section .big {
+  font-weight: 400;
+  font-size: 80px;
+  margin-bottom: 50px;
+}
+
+.conditions {
+  display: flex;
+  align-items: center;
+}
+
+.conditions p {
+  font-weight: 400;
+  font-size: 18px;
+  width: 295px;
+}
+
+.conditions .up {
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.conditions div {
+  margin-right: 40px;
+}
+
+footer {
+  background-color: black;
+  padding: 50px 140px;
+  color: white;
+}
+
+footer .footer-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.contact-details div {
+  margin-bottom: 15px;
+}
+
+.contact-details.responsive {
+  display: none;
+}
+
+.logos {
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.logos img {
+  margin-right: 10px;
+}
+
+@media (max-width: 1279px) and (min-width: 765px) {
+  .container {
+    padding: 0 70px;
+  }
+
+  header {
+    padding: 22px 70px;
+    margin-bottom: 20px;
+  }
+
+  .details img {
+    width: 12px;
+    height: 12px;
+  }
+  .details span {
+    font-size: 12px;
+  }
+
+  .first-section h1 {
+    font-size: 46px;
+  }
+
+  .first-section p {
+    font-size: 12px;
+  }
+
+  .first-section img {
+    width: 176px;
+    margin-right: 5dvw;
+  }
+
+  .andrey-words {
+    width: 280px;
+    height: auto;
+    padding: 15px 11px;
+  }
+
+  .andrey-words p {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .andrey-words span {
+    font-size: 12px;
+  }
+
+  .second-section h1,
+  .third-section h1,
+  .fourth-section h1,
+  .fifth-section h1,
+  .sixth-section h1 {
+    font-size: 32px;
+  }
+
+  .second-section p {
+    font-size: 14px;
+  }
+
+  .second-section .course-info img {
+    width: 182px;
+  }
+
+  .second-section .course-details img {
+    width: 134px;
+  }
+
+  .second-section .course-details span,
+  .third-section .format-details p {
+    font-size: 11px;
+  }
+
+  .second-section .course-details span.bold,
+  .third-section .format-details div p.bold {
+    font-size: 15px;
+  }
+
+  .third-section .format-details {
+    margin-right: 0;
+  }
+
+  .third-section li {
+    font-size: 14px;
+  }
+
+  .third-section h1 {
+    margin-top: 100px;
+    margin-bottom: 51px;
+  }
+
+  .third-section {
+    margin-bottom: 140px;
+  }
+
+  .fourth-section {
+    padding: 0px 48px;
+  }
+
+  .fourth-section h1 {
+    padding-left: 22px;
+  }
+
+  .card {
+    width: calc((100% - 42px) * 0.33);
+  }
+
+  .card.with-margin {
+    margin: 0 21px;
+  }
+
+  .card h4 {
+    font-size: 17px;
+  }
+
+  .card p {
+    font-size: 14px;
+  }
+
+  .fifth-section {
+    padding: 55px 73px;
+  }
+
+  .fifth-section .inner-box {
+    width: 458px;
+  }
+
+  .fifth-section p {
+    font-size: 12px;
+  }
+
+  .fifth-section p br {
+    display: none;
+  }
+
+  .fifth-section .inner-box h2 {
+    font-size: 17px;
+    margin-bottom: 10px;
+  }
+
+  .fifth-section .inner-box > div > img {
+    width: 110px;
+  }
+
+  .fifth-section .inner-box > div div img {
+    width: 18px;
+  }
+
+  .sixth-section {
+    padding: 105px 70px;
+  }
+
+  .sixth-section h1 {
+    margin-bottom: 31px;
+  }
+
+  .sixth-section .small {
+    font-size: 14px;
+  }
+
+  .sixth-section .big {
+    font-size: 46px;
+  }
+
+  .conditions p {
+    font-size: 10px;
+    width: 170px;
+  }
+
+  .conditions .up {
+    font-size: 14px;
+  }
+
+  footer {
+    padding: 29px 70px;
+  }
+
+  footer .logo {
+    width: 66px;
+  }
+
+  .contact-details img {
+    width: 15px;
+    margin-right: 12px;
+  }
+
+  .contact-details span {
+    font-size: 14px;
+  }
+
+  .logos img {
+    width: 19px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 765px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  header {
+    padding: 36px 30px;
+    margin-bottom: 5px;
+  }
+
+  header img {
+    width: 52px;
+  }
+
+  .details img {
+    width: 10px;
+    height: 10px;
+  }
+  .details span {
+    font-size: 10px;
+  }
+
+  .first-section h1 {
+    font-size: 37px;
+  }
+
+  .first-section p {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+
+  .first-section {
+    margin-top: 15px;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .first-section img {
+    width: 141px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+
+  .andrey-words {
+    width: 225px;
+    height: auto;
+    padding: 9px 12px;
+  }
+
+  .andrey-words p {
+    font-size: 11px;
+    margin-bottom: 15px;
+  }
+
+  .andrey-words span {
+    font-size: 10px;
+  }
+
+  .andrey-words {
+    margin: 70px 0;
+  }
+
+  .second-section h1,
+  .third-section h1,
+  .fourth-section h1,
+  .fifth-section h1,
+  .sixth-section h1 {
+    font-size: 26px;
+  }
+
+  .second-section p {
+    font-size: 12px;
+  }
+
+  .second-section .course-info div p:first-of-type {
+    margin-bottom: 20px;
+  }
+
+  .second-section h1 {
+    margin-bottom: 20px;
+  }
+
+  .second-section .course-info {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .second-section .course-info div {
+    max-width: unset;
+    margin-bottom: 20px;
+  }
+
+  .second-section .course-info img {
+    width: 146px;
+    margin: 0 auto;
+  }
+
+  .second-section .course-details img {
+    display: none;
+  }
+
+  .second-section .course-details span,
+  .third-section .format-details p {
+    font-size: 10px;
+  }
+
+  .course-details .detail-blocks {
+    margin-left: 0;
+    flex-wrap: wrap;
+  }
+  .course-details .detail-blocks div {
+    width: 50%;
+    margin-bottom: 34px;
+  }
+
+  .second-section .course-details span.bold,
+  .third-section .format-details div p.bold {
+    font-size: 12px;
+  }
+
+  .third-section .format-details {
+    flex-direction: column;
+  }
+  .third-section .format-details div {
+    margin-bottom: 20px;
+  }
+
+  .third-section li {
+    font-size: 12px;
+  }
+
+  .third-section h1 {
+    margin-top: 40px;
+    margin-bottom: 25px;
+  }
+
+  .third-section {
+    margin-bottom: 70px;
+  }
+
+  .fourth-section {
+    padding: 0px 34px;
+  }
+
+  .fourth-section h1 {
+    padding-left: 0;
+    margin-bottom: 35px;
+  }
+
+  .card {
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  .card.with-margin {
+    margin: 25px auto;
+  }
+
+  .card h4 {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .card p {
+    font-size: 12px;
+  }
+
+  .fifth-section {
+    padding: 42px 32px 53px 36px;
+  }
+
+  .fifth-section .inner-box {
+    width: 100%;
+    padding: 18px 21px;
+  }
+
+  .fifth-section h1 {
+    width: 80%;
+  }
+
+  .fifth-section p {
+    font-size: 10px;
+  }
+
+  .fifth-section .inner-box h2 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .fifth-section .inner-box > div > img {
+    width: 80px;
+  }
+
+  .fifth-section .inner-box > div div img {
+    width: 15px;
+  }
+
+  .fifth-section .inner-box > div div {
+    margin-left: 10px;
+  }
+
+  .sixth-section {
+    padding: 62px 36px;
+  }
+
+  .sixth-section h1 {
+    margin-bottom: 22px;
+    max-width: 65%;
+  }
+
+  .sixth-section .small {
+    font-size: 12px;
+  }
+
+  .sixth-section .big {
+    font-size: 37px;
+  }
+
+  .conditions p {
+    font-size: 10px;
+    width: 138px;
+  }
+
+  .conditions .up {
+    font-size: 12px;
+  }
+
+  footer {
+    padding: 23px 38px;
+  }
+
+  footer .logo {
+    width: 53px;
+  }
+
+  .contact-details {
+    display: none;
+  }
+
+  .contact-details span {
+    font-size: 14px;
+  }
+
+  footer .footer-up {
+    margin-bottom: 14px;
+  }
+
+  .contact-details.responsive {
+    display: block;
+    margin: 48px 0;
+  }
+
+  .contact-details.responsive img {
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+  }
+
+  .contact-details.responsive span {
+    font-size: 12px;
+  }
+
+  .logos {
+    margin: 0;
+  }
+
+  .logos img {
+    width: 15px;
+  }
+}
